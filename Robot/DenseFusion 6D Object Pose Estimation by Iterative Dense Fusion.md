@@ -19,7 +19,7 @@
 
 ## DenseFusion
 
-<img src="https://gitee.com/gggqq/src/raw/master/DenseFusion_Figure2.png" style="zoom:50%;" align="left"  />
+<img src="https://gitee.com/gggqq/src/raw/master/DenseFusion_Figure2.png" style="zoom:30%;" align="left"  />
 
 - **Represent 6D poses as a homogeneous transformation matrx , p = [R | t].** Since the 6D poses of the objects are estimated from camera images, the poses are defined with respected to the camera coordinate frame. <u>(Each object has its own world coordinate, taking the center of gravity as origin)</u>
 - **Input: color image and masked depth pixels (converted to 3D point cloud).**
